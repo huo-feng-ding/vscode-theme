@@ -10,12 +10,12 @@
 
       "infoForeground": "#A9A9AA",
 
-      "selectionInactiveBackground": "#555657",
-      "selectionBackgroundInactive": "#555657",
+      "selectionInactiveBackground": "#4F5051",
+      "selectionBackgroundInactive": "#4F5051",
 
       "lightSelectionBackground": "#2B4059",
       "lightSelectionForeground": "#FFFFFF",
-      "lightSelectionInactiveBackground": "#555657",
+      "lightSelectionInactiveBackground": "#4F5051",
       "lightSelectionInactiveForeground": "#DFDFE0",
 
       "disabledBackground": "#323333",
@@ -160,7 +160,12 @@
     "ToolWindow": {
       "background": "#1e1e1e"
     },
-    "Tree.background":  "#252526",
+    "Tree": {
+      "background": "#252526",
+      "selectionInactiveBackground": "#4F5051",
+      "selectionBackgroundInactive": "#4F5051",
+      "lightSelectionInactiveBackground": "#4F5051"
+    },
     "WelcomeScreen": {
       "background": "#323333",
       "SidePanel.background": "#3c3f41",
