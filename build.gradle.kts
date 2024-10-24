@@ -20,7 +20,12 @@ version = properties("pluginVersion").get()
 
 // Configure project's dependencies
 repositories {
-    mavenCentral()
+        maven { url =uri("https://maven.aliyun.com/repository/public") }
+        maven { url =uri("https://maven.aliyun.com/repository/jcenter") }
+        maven { url =uri("https://maven.aliyun.com/repository/google") }
+        maven { url =uri("https://maven.aliyun.com/repository/central") }
+        maven { url =uri("https://maven.aliyun.com/repository/spring") }
+        maven { url =uri("https://maven.aliyun.com/repository/gradle-plugin") }
 }
 sourceSets["main"].java.srcDirs("src/main/gen")
 
