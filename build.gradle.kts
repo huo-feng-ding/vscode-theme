@@ -21,7 +21,13 @@ kotlin {
 
 // Configure project's dependencies
 repositories {
-    mavenCentral()
+    maven { url =uri("https://maven.aliyun.com/repository/public") }
+    maven { url =uri("https://maven.aliyun.com/repository/jcenter") }
+    maven { url =uri("https://maven.aliyun.com/repository/google") }
+    maven { url =uri("https://maven.aliyun.com/repository/central") }
+    maven { url =uri("https://maven.aliyun.com/repository/spring") }
+    maven { url =uri("https://maven.aliyun.com/repository/gradle-plugin") } 
+    // mavenCentral()
 
     // IntelliJ Platform Gradle Plugin Repositories Extension - read more: https://plugins.jetbrains.com/docs/intellij/tools-intellij-platform-gradle-plugin-repositories-extension.html
     intellijPlatform {
