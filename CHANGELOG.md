@@ -4,6 +4,12 @@
 
 ## Unreleased
 
+## 1.11.1 - 2025-04-14
+
+### Changed
+
+- Supporting 2025.x
+
 ## 1.11.0 - 2024-12-17
 
 ### Added
